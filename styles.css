@@ -1,0 +1,301 @@
+@font-face {
+  font-family:"StratumNo1Bold";
+  src: url("stratumno1bold.ttf") /* TTF file for CSS3 browsers */
+}
+html body {
+	background-color: #000;
+  max-width: 100%;
+  overflow-x: hidden; /*<-- Prevents horizontal scrolling when I'm too lazy to remove the section thats making it scroll sideways*/
+}
+
+/*Navbar goodies*/
+.navbar .navbar-nav {
+ 	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.navbar-inverse {
+	background-color: #1A1F21!important;
+	padding-bottom: 10px!important;
+	padding-top: 10px!important;
+	margin-bottom: 0px!important;
+}
+    /*Navbar text and animations*/
+a.navtext {
+	letter-spacing: 6px;
+	color: #ffffff!important;
+	font-family: "StratumNo1Bold";
+	text-decoration: none;
+	position: relative;
+	padding: 5px;
+  font-size: 14px;
+}
+
+a.navtext:hover {
+	background: #1A1F21!important;
+}
+
+a.navtext:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+ 	left: 0;
+  background: red;
+  background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+  background: -o-linear-gradient(right, #556270 , #FF6B6B);
+  background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+  background: linear-gradient(to right, #556270 , #FF6B6B);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.32s ease-in-out 0s;
+  transition: all 0.32s ease-in-out 0s;
+}
+
+a.navtext:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/*Header*/
+    /*Page header*/
+.header {
+	text-align: center!important;
+	background-color: #22292C;
+	height: 100vh;
+  margin-bottom: 0!important;
+}
+
+.headerTitle {
+	background-color: #22292C;
+	padding-top: 22vh;
+	margin-top: 0;
+	font-family: "Nunito Sans";
+	font-size: 10vh;
+}
+    /*Letters*/
+.sp1 {
+	color: #F69332;
+}
+
+.sp2 {
+	color: #F26F54;
+}
+
+.sp3 {
+	color: #EE4D7A;
+}
+
+.sp4 {
+	color: #A066A9;
+}
+
+.sp5 {
+	color: #4F72B7;
+}
+.sp6 {
+	color: #0B97AC;
+}
+.sp7 {
+	color: #00B199;
+}
+.sp8 {
+	color: #6DB981;
+}
+    /*Header subtitle*/
+.headerSubtitle {
+  padding-top: 3vh;
+  font-family: "StratumNo1Bold"!important;
+  color: #fff!important;
+  letter-spacing: 2px;
+}
+
+/*Page 2*/
+    /*Page header*/
+.section2 {
+  text-align: center;
+  height: 100vh;
+  background: red;
+  background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+  background: -o-linear-gradient(right, #556270 , #FF6B6B);
+  background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+  background: linear-gradient(to right, #556270 , #FF6B6B);
+  margin-bottom: 0px!important;
+  padding-bottom: 0!important;
+}
+.section2Title {
+  font-family: "StratumNo1Bold"!important;
+  background: red;
+  background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+  background: -o-linear-gradient(right, #556270 , #FF6B6B);
+  background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+  background: linear-gradient(to right, #556270 , #FF6B6B);
+  color: #fff!important;
+  padding-top: 10vh;
+  font-size: 5vh;
+  margin-top: 0!important;
+  padding-bottom: 0!important;
+}
+    /*Header subtitle*/
+.section2Subtitle {
+  font-family: "StratumNo1Bold"!important;
+  color: #fff!important;
+  padding-top: 6vh!important;
+  font-size: 3vh;
+  letter-spacing: 3px;
+  margin-bottom: 0!important;
+  padding-bottom: 10vh;
+}
+    /*Table*/
+.section2Table1 {
+  border: 5px solid #fff;
+}
+.section2Table2 {
+  border: 5px solid #fff;
+}
+.section2Table3 {
+  border: 5px solid #fff;
+}
+/*Footer*/
+.footer {
+  background-color: #1A1F21!important;
+  padding-bottom: 50px!important;
+  height: 150px;
+}
+    /*Footer UL*/
+.footerUl {
+  padding-top: 30px;
+}
+.footerUlh5 {
+  font-family: "StratumNo1Bold"!important;
+  color: #fff;
+  letter-spacing: 6px;
+  font-size: 20px;
+}
+.footerUlsp1 {
+  padding-top: 50px!important;
+  padding-bottom: 5px;
+}
+/*Footer Social*/
+.social-icons {
+  padding:0;
+	text-align: center!important;
+}
+.footerSocial {
+  width: 100%;
+  display:block;
+  margin: 0 auto;
+  background-color: #1A1F21;
+  height: 60px!important;
+}
+    /*Icon shtuff n animations*/
+.social-icon {
+  color: #fff;
+	background-color: #1A1F21;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 140px!important;
+	text-align: center;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding:10px 16px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+	color: #ffffff;
+}
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+	color: #ffffff;
+}
+.fa-soundcloud {
+  padding:10px 10px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-soundcloud:hover {
+  background-color: #eb8231;
+	color: #ffffff;
+}
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+	color: #ffffff;
+}
+.fa-instagram {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-instagram:hover {
+  background-color: #0073a4;
+	color: #ffffff;
+}
+.fa-spotify {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #1A1F21;
+  font-size: 1.5em;
+}
+.fa-spotify:hover {
+  background-color: #e25714;
+	color: #ffffff;
+}
