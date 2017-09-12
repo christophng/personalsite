@@ -171,12 +171,12 @@ a.navtext:hover:before {
   text-align: left!important;
   color: #fff;
   font-family: "StratumNo1Regular";
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 70px;
 }
 .section2TableContentHeader {
   text-align: left!important;
-  font-size: calc(100% + 10px);
+  font-size: calc(100% + 13px);
   font-family: "StratumNo1Bold"!important;
   padding-left: 3px;
   letter-spacing: -1.1;
