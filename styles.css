@@ -37,7 +37,7 @@ a.navtext {
 	text-decoration: none;
 	position: relative;
 	padding: 5px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 a.navtext:hover {
@@ -147,7 +147,7 @@ a.navtext:hover:before {
   background: -moz-linear-gradient(right, #556270 , #FF6B6B);
   background: linear-gradient(to right, #556270 , #FF6B6B);
   color: #fff!important;
-  padding-top: 10vh;
+  padding-top: 5vh;
   font-size: 30px;
   margin-top: 0!important;
   padding-bottom: 0!important;
