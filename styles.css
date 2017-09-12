@@ -130,7 +130,7 @@ a.navtext:hover:before {
     /*Page header*/
 .section2 {
   text-align: center;
-  height: calc(100% + 1000px);
+  height: calc(100vw * 10px);
   background: red;
   background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
   background: -o-linear-gradient(right, #556270 , #FF6B6B);
@@ -160,7 +160,7 @@ a.navtext:hover:before {
   font-size: 20px;
   letter-spacing: 3px;
   margin-bottom: 0!important;
-  padding-bottom: 10vh;
+  padding-bottom: 6vh;
 }
     /*Table*/
 .section2Table1 {
@@ -181,26 +181,56 @@ a.navtext:hover:before {
   font-family: "StratumNo1Bold"!important;
   padding-left: 3px;
   letter-spacing: -1.1;
+  padding-top: 0!important;
 }
 /*Footer*/
 .footer {
   background-color: #1A1F21!important;
   padding-bottom: 50px!important;
   height: 150px;
+  text-align: center!important;
 }
-    /*Footer UL*/
-.footerUl {
-  padding-top: 30px;
+    /*Footer Content*/
+.footerContent {
+  text-align: center!important;
+  padding-top: 50px;
 }
-.footerUlh5 {
-  font-family: "StratumNo1Bold"!important;
-  color: #fff;
-  letter-spacing: 6px;
+    /*Footer animations */
+a.footerUla {
+	letter-spacing: 6px;
+	color: #ffffff!important;
+	font-family: "StratumNo1Bold";
+	text-decoration: none!important;
+	position: relative;
+	padding: 5px;
   font-size: 20px;
 }
-.footerUlsp1 {
-  padding-top: 50px!important;
-  padding-bottom: 5px;
+a.footerUla:hover {
+	background: #1A1F21!important;
+  text-decoration: none!important;
+}
+a.footerUla:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+ 	left: 0;
+  background: red;
+  background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+  background: -o-linear-gradient(right, #556270 , #FF6B6B);
+  background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+  background: linear-gradient(to right, #556270 , #FF6B6B);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.32s ease-in-out 0s;
+  transition: all 0.32s ease-in-out 0s;
+}
+a.footerUla:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 /*Footer Social*/
 .social-icons {
