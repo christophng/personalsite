@@ -148,7 +148,7 @@ a.navtext:hover:before {
   background: linear-gradient(to right, #556270 , #FF6B6B);
   color: #fff!important;
   padding-top: 10vh;
-  font-size: 5vh;
+  font-size: 30px;
   margin-top: 0!important;
   padding-bottom: 0!important;
 }
@@ -157,7 +157,7 @@ a.navtext:hover:before {
   font-family: "StratumNo1Bold"!important;
   color: #fff!important;
   padding-top: 6vh!important;
-  font-size: 3vh;
+  font-size: 20px;
   letter-spacing: 3px;
   margin-bottom: 0!important;
   padding-bottom: 10vh;
@@ -165,14 +165,15 @@ a.navtext:hover:before {
     /*Table*/
 .section2Table1 {
   border: 3px solid #fff;
-  max-height: 310px;
+  max-height: 350px;
 }
 .section2TableContent {
   text-align: left!important;
   color: #fff;
   font-family: "StratumNo1Regular";
-  font-size: 20px;
-  padding-bottom: 70px;
+  font-size: 17px;
+  padding-left: 10px;
+  letter-spacing: -0.8;
 }
 .section2TableContentHeader {
   text-align: left!important;
