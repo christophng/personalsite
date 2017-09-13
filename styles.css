@@ -2,10 +2,12 @@
   font-family:"StratumNo1Bold";
   src: url("stratumno1bold.ttf") /* TTF file for CSS3 browsers */
 }
+
 @font-face {
   font-family:"StratumNo1Regular";
   src: url("StratumNo1 Regular.ttf") /* TTF file for CSS3 browsers */
 }
+
 html body {
 	background-color: #000;
   max-width: 100%;
