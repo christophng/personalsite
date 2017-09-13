@@ -87,7 +87,7 @@ a.navtext:hover:before {
 	padding-top: 22vh;
 	margin-top: 0;
 	font-family: "Nunito Sans";
-	font-size: 10vh;
+	font-size: 70px;
 }
 
     /* Parallax Effect for Header */
@@ -289,7 +289,7 @@ a.footerUla:hover:before {
   background-color: #3d5b99;
 	color: #ffffff;
 }
-.fa-twitter {
+.fa-linkedin {
   padding:10px 12px;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -299,36 +299,8 @@ a.footerUla:hover:before {
   background-color: #1A1F21;
   font-size: 1.5em;
 }
-.fa-twitter:hover {
+.fa-linkedin:hover {
   background-color: #00aced;
-	color: #ffffff;
-}
-.fa-soundcloud {
-  padding:10px 10px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: #1A1F21;
-  font-size: 1.5em;
-}
-.fa-soundcloud:hover {
-  background-color: #eb8231;
-	color: #ffffff;
-}
-.fa-youtube {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: #1A1F21;
-  font-size: 1.5em;
-}
-.fa-youtube:hover {
-  background-color: #e64a41;
 	color: #ffffff;
 }
 .fa-instagram {
@@ -343,19 +315,5 @@ a.footerUla:hover:before {
 }
 .fa-instagram:hover {
   background-color: #0073a4;
-	color: #ffffff;
-}
-.fa-spotify {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: #1A1F21;
-  font-size: 1.5em;
-}
-.fa-spotify:hover {
-  background-color: #e25714;
 	color: #ffffff;
 }
