@@ -78,16 +78,32 @@ a.navtext:hover:before {
 .header {
 	text-align: center!important;
 	background-color: #22292C;
-	height: 100vh;
+	height: 100vh!important;
   margin-bottom: 0!important;
+  padding-bottom: 0px;
 }
 
 .headerTitle {
-	background-color: #22292C;
 	padding-top: 22vh;
 	margin-top: 0;
 	font-family: "Nunito Sans";
 	font-size: 10vh;
+}
+
+    /* Parallax Effect for Header */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.parallax {
+  background-image: url("background.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
     /*Letters*/
 .sp1 {
