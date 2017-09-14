@@ -305,3 +305,18 @@ a.footerUla:hover:before {
   background-color: #8a3ab9;
 	color: #ffffff;
 }
+
+
+
+
+/*             */
+/* ABOUT  PAGE */
+/*             */
+.aboutHeader {
+  height: 100vh;
+  text-align: center;
+}
+.aboutHeaderTitle {
+  font-size: 60px;
+  padding-top: 120px;
+}
