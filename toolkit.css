@@ -1,0 +1,85 @@
+/* HOVER LINK EFFECTS */
+a.navtext {
+	letter-spacing: 6px;
+	color: #ffffff!important;
+	font-family: "StratumNo1Bold";
+	text-decoration: none;
+	position: relative;
+	padding: 5px;
+  font-size: 15px;
+}
+
+a.navtext:hover {
+	background: #1A1F21!important;
+}
+
+a.navtext:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+ 	left: 0;
+  background: red;
+  background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+  background: -o-linear-gradient(right, #556270 , #FF6B6B);
+  background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+  background: linear-gradient(to right, #556270 , #FF6B6B);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.32s ease-in-out 0s;
+  transition: all 0.32s ease-in-out 0s;
+}
+
+a.navtext:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+
+/* GRADIENTS */
+background: red;
+background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
+background: -o-linear-gradient(right, #556270 , #FF6B6B);
+background: -moz-linear-gradient(right, #556270 , #FF6B6B);
+background: linear-gradient(to right, #556270 , #FF6B6B);
+
+
+
+
+
+
+/* RAINBOW LETTERS */
+.sp1 {
+	color: #F69332;
+}
+
+.sp2 {
+	color: #F26F54;
+}
+
+.sp3 {
+	color: #EE4D7A;
+}
+
+.sp4 {
+	color: #A066A9;
+}
+
+.sp5 {
+	color: #4F72B7;
+}
+.sp6 {
+	color: #0B97AC;
+}
+.sp7 {
+	color: #00B199;
+}
+.sp8 {
+	color: #6DB981;
+}
