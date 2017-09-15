@@ -310,13 +310,13 @@ a.footerUla:hover:before {
 
 
 /*             */
-/* ABOUT  PAGE */
+/* WORK  PAGE */
 /*             */
-.aboutHeader {
+.workHeader {
   height: 100vh;
   text-align: center;
 }
-.aboutHeaderTitle {
+.workHeaderTitle {
   font-size: 60px;
   padding-top: 120px;
 }
