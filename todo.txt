@@ -1,0 +1,3 @@
+- Add "coding languages I'm proficient in" section under About
+- Change footer link for about from /about to #about
+- figure out htaccess
