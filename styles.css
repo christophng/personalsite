@@ -148,7 +148,7 @@ a.navtext:hover:before {
     /*Page header*/
 .section2 {
   text-align: center;
-  height: calc(100vw * 10px);
+  height: 100%;
   background: red;
   background: -webkit-linear-gradient(left, #556270 , #FF6B6B);
   background: -o-linear-gradient(right, #556270 , #FF6B6B);
@@ -183,7 +183,8 @@ a.navtext:hover:before {
     /*Table*/
 .section2Table1 {
   border: 3px solid #fff;
-  max-height: 350px;
+  margin-bottom: 1px;
+  margin-top: 1px;
 }
 .section2TableContent {
   text-align: left!important;
@@ -195,11 +196,11 @@ a.navtext:hover:before {
 }
 .section2TableContentHeader {
   text-align: left!important;
-  font-size: calc(100% + 13px);
+  font-size: 23px;
   font-family: "StratumNo1Bold"!important;
   padding-left: 3px;
   letter-spacing: -1.1;
-  padding-top: 0!important;
+  margin-bottom: 10px;
 }
 /*Footer*/
 .footer {
@@ -310,8 +311,11 @@ a.footerUla:hover:before {
 
 
 /*             */
-/* WORK  PAGE */
+/* WORK  PAGE  */
 /*             */
+/* Also sorry for the inconsistent comments :3 */
+/* Header */
+
 .workHeader {
   height: 100vh;
   text-align: center;
@@ -319,4 +323,45 @@ a.footerUla:hover:before {
 .workHeaderTitle {
   font-size: 60px;
   padding-top: 120px;
+}
+.workHeaderSubtitle {
+  padding-top: 3vh;
+  font-family: "StratumNo1Bold";
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+/* Portfolio section */
+.workPortfolio {
+  height: 100vh;
+  background: red;
+  background: -webkit-linear-gradient(left, #3494E6 , #EC6EAD);
+  background: -o-linear-gradient(right, #3494E6 , #EC6EAD);
+  background: -moz-linear-gradient(right, #3494E6 , #EC6EAD);
+  background: linear-gradient(to right, #3494E6 , #EC6EAD);
+}
+.workPortfolioTitle {
+  font-family: "StratumNo1Bold";
+  color: #fff;
+  padding-top: 35px;
+  text-align: center;
+  font-size: 42px;
+}
+.workShowcase {
+  padding-top: 30px;
+}
+.workShowcaseTable1,.workShowcaseTable2,.workShowcaseTable3 {
+  text-align: center;
+  border: 3.5px solid #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.workShowcaseTableTitle {
+  text-align: center;
+  font-family: "StratumNo1Bold";
+  font-size: 25px;
+  color: #fff;
+}
+.workShowcaseTableContent {
+  text-align: center;
 }
