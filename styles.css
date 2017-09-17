@@ -181,26 +181,29 @@ a.navtext:hover:before {
   padding-bottom: 6vh;
 }
     /*Table*/
-.section2Table1 {
-  border: 3px solid #fff;
-  margin-bottom: 1px;
-  margin-top: 1px;
+.section2Table {
+  text-align: center;
+  border: 2.5px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.section2TableTitle {
+  text-align: left;
+  font-family: "StratumNo1Bold";
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px!important;
+  margin-bottom: 20px;
 }
 .section2TableContent {
-  text-align: left!important;
-  color: #fff;
+  text-align: left;
+  margin-left: 7px;
   font-family: "StratumNo1Regular";
-  font-size: 17px;
-  padding-left: 10px;
-  letter-spacing: -0.8;
-}
-.section2TableContentHeader {
-  text-align: left!important;
-  font-size: 23px;
-  font-family: "StratumNo1Bold"!important;
-  padding-left: 3px;
-  letter-spacing: -1.1;
-  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: -1.1px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 /*Footer*/
 .footer {
@@ -321,8 +324,8 @@ a.footerUla:hover:before {
   text-align: center;
 }
 .workHeaderTitle {
-  font-size: 60px;
-  padding-top: 120px;
+  font-size: 70px;
+  padding-top: 22vh;
 }
 .workHeaderSubtitle {
   padding-top: 3vh;
@@ -333,7 +336,7 @@ a.footerUla:hover:before {
 
 /* Portfolio section */
 .workPortfolio {
-  height: 100vh;
+  height: 100%;
   background: red;
   background: -webkit-linear-gradient(left, #3494E6 , #EC6EAD);
   background: -o-linear-gradient(right, #3494E6 , #EC6EAD);
