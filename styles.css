@@ -166,7 +166,7 @@ a.navtext:hover:before {
   background: linear-gradient(to right, #556270 , #FF6B6B);
   color: #fff!important;
   padding-top: 5vh;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 0!important;
   padding-bottom: 0!important;
 }
@@ -204,6 +204,104 @@ a.navtext:hover:before {
   color: #fff;
   margin-bottom: 20px;
   font-weight: 500;
+}
+/*Page 3*/
+.section3 {
+  color: #fff;
+  background-color: #fff;
+  height: 100%;
+}
+    /*Page 3 Header*/
+.section3Title {
+  font-family: "StratumNo1Bold"!important;
+  background: #fff;
+  font-size: 50px;
+  margin-top: 0!important;
+  padding-bottom: 0!important;
+  padding-top: 9vh;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.sp1 {
+	color: #F69332;
+}
+
+.sp2 {
+	color: #F26F54;
+}
+
+.sp3 {
+	color: #EE4D7A;
+}
+
+.sp4 {
+	color: #A066A9;
+}
+
+.sp5 {
+	color: #4F72B7;
+}
+.sp6 {
+	color: #0B97AC;
+}
+.sp7 {
+	color: #00B199;
+}
+.sp8 {
+  color: #6DB981;
+}
+.sp11 {
+  color: #E74C3C;
+}
+.sp12 {
+  color: #9B59B6;
+}
+.sp13 {
+  color: #8E44AD;
+}
+.sp14 {
+  color: #2980B9;
+}
+.sp15 {
+  color: #3498DB;
+}
+.sp16 {
+  color: #1ABC9C;
+}
+.sp17 {
+  color: #16A085;
+}
+.sp18 {
+  color: #2ECC71;
+}
+.sp19 {
+  color: #F1C40F;
+}
+.sp20 {
+  color: #F39C12;
+}
+    /*Page 3 Content*/
+.section3Content1 {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  color: #1A1F21;
+  margin-left: 12%;
+  padding-top: 50px;
+  margin-right: 12%;
+}
+.section3logos {
+  margin-top: 100px!important;
+  margin-bottom: 100px!important;
+  vertical-align: center!important;
+  text-align: center!important;
+}
+.image1 {
+  width: 100%;
+  height: auto;
+  max-height: 400px!important;
+  vertical-align: center!important;
+  text-align: center!important;
 }
 /*Footer*/
 .footer {
