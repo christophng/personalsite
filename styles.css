@@ -73,6 +73,19 @@ a.navtext:hover:before {
 
 .navbar {
   margin-bottom: 0!important;
+  border: 0!important;
+}
+
+.center {
+  padding: auto;
+  width: 51%;
+}
+
+.navbar-toggle {
+  border: none!important;
+  outline: none!important;
+  float: none;
+  background-color: #1A1F21!important;
 }
 
 /*Header*/
@@ -85,17 +98,9 @@ a.navtext:hover:before {
   padding-bottom: 0px;
 }
 
-.headerLogo {
-  height: 300px;
-  width: 250px!important;
-  padding-bottom: 0px!important;
-  padding-top: 100px!important;
-  text-align: center!important;
-}
-
 .headerTitle {
   vertical-align: center!important;
-  padding-top: 50px;
+  padding-top: 35vh;
 	margin-top: 0;
 	font-family: "Nunito Sans";
 	font-size: 70px;
