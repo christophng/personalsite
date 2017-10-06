@@ -93,9 +93,8 @@ a.navtext:hover:before {
 .header {
 	text-align: center!important;
 	background-color: #22292C;
-	height: 100vh!important;
-  margin-bottom: 0!important;
-  padding-bottom: 0px;
+	height: 110vh!important;
+  padding-bottom: 50vh;
 }
 
 .headerTitle {
@@ -103,7 +102,9 @@ a.navtext:hover:before {
   padding-top: 35vh;
 	margin-top: 0;
 	font-family: "Nunito Sans";
-	font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 3px;
+	font-size: 100px;
   background: -webkit-linear-gradient(left, #F1A9A0 , #2DE3C8);
   background: -o-linear-gradient(right, #F1A9A0 , #2DE3C8);
   background: -moz-linear-gradient(right, #F1A9A0 , #2DE3C8);
